@@ -2,10 +2,7 @@
 
 ## Rule
 
-This document is the source of truth for the Campus Pulse API. Before adding
-or changing an endpoint, update this document and check the change with the
-human developer. Do not implement endpoint behavior that is not documented and
-approved here.
+This document is the source of truth for the Campus Pulse API. Before adding or changing an endpoint, update this document and check the change with the human developer. Do not implement endpoint behavior that is not documented and approved here.
 
 ## Endpoint index
 
@@ -55,6 +52,7 @@ approved here.
 
   `title` and `body` are required non-empty strings. `clubIds` is a required
   array of club ID integers and may be empty.
+
 - **Success:** `201 Created` with the created announcement, including
   `announcement_id`, `title`, `body`, and `clubIds`.
 - **Failures:**
@@ -81,6 +79,7 @@ approved here.
   `title` and `body`, when provided, must be non-empty strings. `clubIds`, when
   provided, must be an array of club ID integers and may be empty. At least one
   supported field is required.
+
 - **Success:** `200 OK` with the updated announcement, including
   `announcement_id`, `title`, `body`, and `clubIds`.
 - **Failures:**

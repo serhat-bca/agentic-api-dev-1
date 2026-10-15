@@ -11,10 +11,7 @@ This block is written and re-added by `next dev` — verify at `node_modules/nex
 ## API and scope ground rules
 
 - Read `docs/api-contract.md` before doing API work.
-- Stay within the current task or issue. Do not expand the scope without asking
-  the human developer.
-- Do not silently change API methods, paths, inputs, outputs, or status
-  behavior.
+- Stay within the current task or issue. Do not expand the scope without asking the human developer.
+- Do not silently change API methods, paths, inputs, outputs, or status behavior.
 - Keep credentials server-side. Never commit secrets or `.env.local`.
-- Do not expose junction-table structure as the public API unless the contract
-  explicitly requires it.
+- Do not expose junction-table structure as the public API unless the contract explicitly requires it.
